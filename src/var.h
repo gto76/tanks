@@ -1,0 +1,12 @@
+extern int end_game;
+extern struct Tank tnk1,tnk2;
+extern struct Kugla kgl[10];
+extern int kratr[500];
+extern SAMPLE *blast;
+extern SAMPLE *cev;
+extern SAMPLE *fire;
+extern SAMPLE *load;
+extern SAMPLE *move;
+extern SAMPLE *themes;
+extern SAMPLE *hit;
+extern SAMPLE *battle;
