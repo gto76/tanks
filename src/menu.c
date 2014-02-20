@@ -12,7 +12,7 @@ menu()
 	char s[50],version[]="1.0.8";
 
 	
-	play_sample(themes,255,128,1000,1);
+	//play_sample(themes,255,128,1000,1);
 	while(1) {
 		textprintf_centre(screen,font,SREDINA,VISINA/3,15,
 			"  TANKS! v%s",version);
@@ -42,7 +42,7 @@ menu()
 		}			
 
 	}
-	stop_sample(themes);
+	//stop_sample(themes);
 	rest(200);
 	clear(screen);
 	narisi();

@@ -19,7 +19,7 @@ init()
 		printf("%s\n", allegro_error);
 		exit(1);
 	}
-	zvok();
+	//zvok();
 	
 	clear(screen);
 	end_game=0;

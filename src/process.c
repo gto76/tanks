@@ -41,7 +41,7 @@ spr(struct Tank *tnk,int tipka)
 	int i;
 	if((tnk->fire==1) && !( tipka?key[KEY_TAB]:key[KEY_ENTER]) ) {
 		if(tnk->t==-1) { //ce je reloadnan
-			play_sample(fire,255,255-(tnk->x/SIRINA*255),1000,0);
+			//play_sample(fire,255,255-(tnk->x/SIRINA*255),1000,0);
 			inic_kugle(tnk);
 			tnk->t=0;
 			tnk->dmoc=tnk->moc; //zapomni si moc za kazanje casa
@@ -119,8 +119,8 @@ eksplozija(int i)
 		putpixel(screen,kgl[i].dx,kgl[i].dy,0);//zbrise zadnjo kgl			
 		zmaga(j);			//pogleda ce je kdo zmagu
 		krater();			//narise vse kraterje
-		play_sample(blast, 255, 255-(kgl[i].x/SIRINA*255),
-			     1000, 0); 		//bummm
+		//play_sample(blast, 255, 255-(kgl[i].x/SIRINA*255),
+		//	     1000, 0); 		//bummm
 		kgl[i].t=-1;			//kugla se resetira
 }		
 
@@ -136,7 +136,7 @@ zmaga(int j)
 void
 zmg(int i,int j)
 {
-	play_sample(hit,255,255-(j/SIRINA*255),1000,0);
+	//play_sample(hit,255,255-(j/SIRINA*255),1000,0);
 	textprintf_centre(screen,font,SREDINA,VISINA/3,15,
 			"Player %d wins!",i);
 	end_game=1;
@@ -154,7 +154,7 @@ tjm(struct Tank *tnk)
 {
 	if(tnk->t!=-1) {
 		if(tnk->t>=100) {
-			play_sample(load,255,255-(tnk->x/SIRINA*255),1000,0);
+			//play_sample(load,255,255-(tnk->x/SIRINA*255),1000,0);
 			tnk->t=-1;
 		}
 		else
