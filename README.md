@@ -3,7 +3,7 @@ Tanks
 
 Two player game.
 
-![Alt text](/doc/tanks-creenshot.png?raw=true "Screenshot of the game")
+![Alt text](/doc/tanks-screenshot.png?raw=true "Screenshot of the game")
 
 Needs allegro library to compile:
 sudo apt-get install liballegro4.2-dev
