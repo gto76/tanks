@@ -1,4 +1,5 @@
 #include	<allegro.h>
+#include 	<stdio.h>
 #include	"struc.h"
 #include	"konst.h"
 #include	"funct.h"
