@@ -15,11 +15,10 @@ Made this one long time ago. The source of the final version got lost, that's wh
 ### How to run compiled (final) version:
 ```bash
 sudo apt-get install dosbox
-cd
 git clone https://github.com/gto76/tanks.git
 cd tanks
 unzip Tanks!.zip
-echo "mount t ~/tanks/Tanks!" >> ~/.dosbox/dosbox*.conf
+echo "mount t $PWD/Tanks!" >> ~/.dosbox/dosbox*.conf
 dosbox -fullscreen -c "t:" -c "tanks!"
 ```
 
@@ -30,5 +29,5 @@ sudo apt-get install liballegro4-dev
 git clone https://github.com/gto76/tanks.git
 cd tanks
 make
-./Tanks!
+./tanks
 ```
