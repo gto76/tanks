@@ -1,0 +1,14 @@
+TANKS! v 1.0 user keys:
+
+*Left player:
+	A	Left
+	D	Right
+	W	Barrel Up
+	S	Barrel Down
+	TAB	Fire
+
+*Right player:
+	Cursor Keys + Enter
+
+P	Pause
+ESC	Quit
