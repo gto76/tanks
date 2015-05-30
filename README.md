@@ -1,7 +1,7 @@
 TANKS!
 ======
 
-Two player game.
+Two player game…
 
 ![Alt text](/doc/tanks-screenshot.png?raw=true "Screenshot of the game")
 
@@ -12,8 +12,8 @@ sudo apt-get install liballegro4-dev
 
 Made this one long time ago. The source of the final version got lost, that's why I added the compiled windows binary to the project. It works in DOSBox. In DOSBox use ctrl F11/F12 to slow down/speed up the emulation.
 
-How to run compiled (final) version
------------------------------------
+How to run compiled (final) version on…
+---------------------------------------
 
 ### Windows
 1. Download and install [DOSBox](http://sourceforge.net/projects/dosbox/files/latest/download?accel_key=56%3A1425822250%3Ahttp%253A//www.dosbox.com/download.php%253Fmain%253D1%3Ad55255fd%24a12400df8eebd87c25f5ab461bc8f735bfa63f2a&click_id=32fbcef4-c599-11e4-b7db-0200ac1d1d8b&source=accel)
