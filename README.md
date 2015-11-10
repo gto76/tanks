@@ -16,21 +16,21 @@ How to run  on…
 3. Double click run.bat
 
 ### UNIX
-```bash
-sudo apt-get install dosbox
-git clone https://github.com/gto76/tanks.git
-cd tanks
-echo "mount t $PWD/bin" >> ~/.dosbox/dosbox*.conf
-dosbox -fullscreen -c "t:" -c "tanks!"
+```
+$ sudo apt-get install dosbox
+$ git clone https://github.com/gto76/tanks.git
+$ cd tanks
+$ echo "mount t $PWD/bin" >> ~/.dosbox/dosbox*.conf
+$ dosbox -fullscreen -c "t:" -c "tanks!"
 ```
 
 How to compile and run unfinished version
 -----------------------------------------
-```bash
-sudo apt-get install libglib2.0-dev
-sudo apt-get install liballegro4-dev
-git clone https://github.com/gto76/tanks.git
-cd tanks
-make
-./tanks
+```
+$ sudo apt-get install libglib2.0-dev
+$ sudo apt-get install liballegro4-dev
+$ git clone https://github.com/gto76/tanks.git
+$ cd tanks
+$ make
+$ ./tanks
 ```
