@@ -5,7 +5,7 @@ TANKS!
 
 ![Alt text](/doc/tanks-screenshot.png?raw=true "Screenshot of the game")
 
-Made this one long time ago. The source of the final version got lost, that's why I added the compiled Windows binary to the project, that works in _DOSBox_ (use ctrl F11/F12 to slow down/speed up the emulation).
+Made this one long time ago. The source of the final version got lost, so I added the compiled Windows binary to the project. It works in _DOSBox_ (use ctrl F11/F12 to slow down/speed up the emulation).
 
 How to run  on…
 ---------------
